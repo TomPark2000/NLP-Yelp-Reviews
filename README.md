@@ -33,12 +33,12 @@ I created a seperate data frame that grouped the reviews by the star rating, and
 ![](images/NLP_corr.png)
 
 
-### Data Pipeline and NLP algorithm
+### Data Pipeline and NLP model
 I developed a data processing pipeline for sentiment analysis that transforms text data into a numerical format using a bag-of-words model, followed by applying a Multinomial Naive Bayes classifier. After fitting the pipeline to my training data, I used it to make predictions on the test set, enabling the evaluation of the model's performance.
 
 Please note that this was my final model, and I had previously tried implementing a TF-IDF normalization and creating a custom analyzer to my data pipeline, but found that it decreased the accuracy of my model. 
 
-### Evaluation
+### Prediction Evaluation
 I evaluated my model with a classification report, which showed a 93% overall accuracy, 91% recall for a 1 star review, a 93% recall for a 5 star review, and more. 
 
 ![](images/NLP_evl.png)
