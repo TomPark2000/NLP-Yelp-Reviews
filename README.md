@@ -1,4 +1,4 @@
-# Yelp Reviews NLP Project
+# Yelp Reviews - NLP Project
 
 ## Project Overview
 This project analyzes the Yelp Reviews from 2013 and is sourced from [Kaggle](https://www.kaggle.com/c/yelp-recsys-2013). The primary objective of this project was to develop an algorithm capable of predicting whether a review rates 1 or 5 stars based solely on its text content. Moreover, the project aimed to uncover hidden trends and insights within the dataset, exploring aspects such as:
